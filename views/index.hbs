@@ -1,0 +1,60 @@
+<div id = "bodySpan">
+    <div id = "baID">
+        <img src="img/banner/imgBanner1.jpg" id="slideshow1" class="slideshow" alt="">
+        <img src="img/banner/imgBanner2.jpg" id="slideshow2" class="slideshow" alt="">
+        <img src="img/banner/imgBanner3.jpg" id="slideshow3" class="slideshow" alt="">
+        <img src="img/banner/imgBanner4.jpg" id="slideshow4" class="slideshow" alt="">
+        <img src="img/banner/imgBanner5.jpg" id="slideshow5" class="slideshow" alt="">
+        <img src="img/banner/imgBanner6.jpg" id="slideshow6" class="slideshow" alt="">
+    </div>
+    <br>  
+
+    <div id = "videoID">
+        <p id="pVideoDiv">CLOSE X</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/evqnIKVX8RM"
+         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+          picture-in-picture" allowfullscreen id = "runningVideo"></iframe>
+    </div>
+
+
+    <div id = "indexID">
+        <form action="index.handlebars" method="POST" id="formID">
+            <h3 id = "formIndexP">Book unique places to <br>
+            stay and things to do</h3>
+
+            <br><br>
+            <label class="indexLabel">Where</label>
+            <select class="input">
+                <option>City in Canada</option>
+                <option value="markham" name="CityM">Markham</option>
+                <option value="oakville" name="CityO">Oakville</option>
+                <option value="toronto" name="CityT">Toronto</option>
+                <option value="vaughan" name="CityV">Vaughan</option>
+            </select>
+            <br><br>
+
+            <div id = "checkDiv">
+                <span>
+                    <label class="indexLabel">CHECK-IN</label> <br>
+                    <input type="date" class="input">
+                </span>
+
+                <span>
+                    <label class="indexLabel">CHECK-OUT</label> <br>
+                    <input type="date" class="input">
+                </span>
+            </div>
+            <br>
+            <label class="indexLabel">GUESTS</label>
+            <select class="input">
+                <option value="markham" name="CityM">01 guest</option>
+                <option value="oakville" name="CityO">02 guests</option>
+                <option value="toronto" name="CityT">03 guests</option>
+                <option value="vaughan" name="CityV">04 guests</option>
+            </select>
+            <br><br>
+            <input type="button" name="searchButton" value="Search" id="searchButton">
+        </form>
+    </div>
+
+</div>

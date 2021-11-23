@@ -1,0 +1,16 @@
+<div id="loginDivMain">   
+    <div id = "loginForm">
+        <form action="/login" method="POST">
+            <label>username</label>
+            <input type="text" name="name" class="inputLogin" id="usernameID">
+            <br><br>
+            <label>password</label>
+            <input type="password" name="pLogin" class="inputLogin" id="passwordID">
+            <br><br>
+            {{#each login}}
+                <span id = "spanEach">{{this}}</span>
+            {{/each}}
+            <input type="submit" value="SignIn" name="submitLogin" id="subLogin">
+        </form> 
+    </div>
+    </div>

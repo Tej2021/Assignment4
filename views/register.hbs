@@ -1,0 +1,156 @@
+<div id= "registerDiv">
+
+    <div id="errorRegisterDiv">
+        {{#each register}}
+                <p>{{this}}</p>
+        {{/each}}
+    </div>
+
+    <div id="dummyDiv">
+    <h4>Sign up with <a href="">Facebook</a> or <a href="">Google</a></h4>
+
+    <p>-----------or-------------</p>
+
+    <form method="POST" action="/reg">
+        <input type="text" name="userName" id="userName" placeholder="User Name">
+        <br>
+        <input type="email" name="email" id="email" placeholder="Email address">
+        <br>
+        <input type="text" name="firstName" id="firstName" placeholder="First name">
+        <br>
+        <input type="text" name="lastName" id="lastName" placeholder="Last name">
+        <br><br>
+        <input type="password" name="password" class="password" placeholder="Create a Password" >
+        <br>
+        <input type="password" name="passwordd" class="password" placeholder="Create a Password">
+        <br><br>
+        <label>To sign up, you need to be at least 18. Other people who use Airbnb won't see your birthday.</label>
+        <br>
+        <select name="selectMonth" id="selectMonth" class = "selectDate">
+            <option>Month</option>
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+            <option>May</option>
+            <option>Jun</option>
+            <option>Jul</option>
+            <option>Aug</option>
+            <option>Sep</option>
+            <option>Oct</option>
+            <option>Nov</option>
+            <option>Dec</option>
+        </select>
+
+        <select name="selectDay" id="selectDay" class = "selectDate">
+            <option>Day</option>
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+            <option>08</option>
+            <option>09</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+        </select>
+
+                <select name="selectYear" id="selectYear" class = "selectDate">
+            <option>Year</option>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            <option>2014</option>
+            <option>2013</option>
+            <option>2012</option>
+            <option>2011</option>
+            <option>2010</option>
+            <option>2009</option>
+            <option>2008</option>
+            <option>2007</option>
+            <option>2006</option>
+            <option>2005</option>
+            <option>2004</option>
+            <option>2003</option>
+            <option>2002</option>
+            <option>2001</option>
+            <option>2000</option>
+            <option>1999</option>
+            <option>1998</option>
+            <option>1997</option>
+            <option>1996</option>
+            <option>1995</option>
+            <option>1994</option>
+            <option>1993</option>
+            <option>1992</option>
+            <option>1991</option>
+            <option>1990</option>
+            <option>1989</option>
+            <option>1988</option>
+            <option>1987</option>
+            <option>1986</option>
+            <option>1985</option>
+            <option>1984</option>
+            <option>1983</option>
+            <option>1982</option>
+            <option>1981</option>
+            <option>1980</option>
+            <option>1979</option>
+            <option>1978</option>
+            <option>1977</option>
+            <option>1976</option>
+            <option>1975</option>
+            <option>1974</option>
+            <option>1973</option>
+            <option>1972</option>
+            <option>1971</option>
+            <option>1970</option>
+            <option>1969</option>
+            <option>1968</option>
+            <option>1967</option>
+            <option>1966</option>
+            <option>1965</option>
+            <option>1964</option>
+            <option>1963</option>
+            <option>1962</option>
+            <option>1961</option>
+            <option>1960</option>
+            <option>1959</option>
+            <option>1958</option>
+        </select>
+
+        <br>
+
+        <label>We'll send you marketing promotions, special offers, inspiration, and policy updates via email.</label>
+
+        <br>
+
+        <input type="submit" name="submitButton" id="submitButton" value="Sign up">
+    </form>
+    </div>
+
+</div>   

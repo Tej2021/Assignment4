@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#h3userDash{
+    margin-bottom: 80vh;
+}
+   
+    header{
+    display: grid;
+    grid-template-columns: 20px 1fr 120px;
+
+    height: 8vh;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.3rem;
+  
+
+    background-color:rgb(122, 73, 73);
+    }
+
+header i {
+    color: #fff;
+}
+#navDiv{
+    padding-left: 25rem;
+    padding-top: 0rem;
+}
+
+.pnavDiv{
+    padding-right: 7rem;
+    margin-left: 5rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.8rem;
+
+    text-decoration: none;
+
+    border: 1.8px solid #fff;
+    padding: 9px;
+    border-radius: 50px 50px;
+}
+
+#loginDiv{
+    color: white;
+}
+
+#loginSpan{
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+
+   
+footer{
+    color: #ff5a5f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+    height: 1.5rem;
+    background-color:rgb(122, 73, 73);
+}
+
+footer a{
+    
+    padding-right: 2rem;
+    padding-top: 1rem;
+    color: rgb(243, 241, 241);
+}
+
+footer p{
+    padding-right: 10rem;
+    color: rgb(243, 241, 241);
+    display: inline-block;
+}
+
+footer i {
+    color:white;
+}
+
+    
+    #baID{
+        padding: 1rem 2rem;
+    }
+
+    #baID img{
+        width: 13rem;
+        height: 6rem;
+    }
+    #bodySpan{
+        background-image: url("../img/main2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+    }
+
+    #loginForm{
+        margin-left: 25rem;
+        margin-top: 5rem;
+
+        color: blanchedalmond;
+        font-weight: bold;
+        font-size: 22px;
+
+        width: 25rem;
+        height: 30vh;
+        background-color: rgb(62, 76, 88);
+
+        border: 1.8px solid #ff5a5f;
+        padding: 15px;
+        border-radius: 20px 20px;
+    }
+
+    .inputLogin{
+        width: 18rem;
+        height: 2.5rem;
+    }
+
+    #subLogin{
+        width: 5rem;
+        height: 2.5rem;
+        margin-left: 19rem;
+    }
+
+    #indexID{
+        margin-left: 2rem;
+        padding-top: 2rem;
+        margin-top : 2rem;
+        
+        width: 25rem;
+        height: 63vh;
+        background-color: rgb(221, 188, 185);
+
+        border: 1.8px solid #ff5a5f;
+        padding: 9px;
+        border-radius: 50px 20px;
+    }
+
+
+    #formIndexP{
+        font-size:2rem; 
+        color: purple;
+        text-align:center;
+    }
+
+    .indexLabel{
+        font-size: 22px;
+        color: purple;
+        padding-right: 1rem;
+    }
+
+    .input{
+        width: 10rem;
+        height: 2rem;
+    }
+
+    #checkDiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #searchButton{
+        margin-left: 15rem;
+        width: 7rem;
+        height: 2rem;
+    }
+
+    #bannerID{
+        margin-left: 15rem;
+    }
+
+    #bannerID img{
+        width: 25rem;
+    }
+
+    #imgButton{
+        width: 10rem;
+    }
+
+    #videoID{
+        margin-left: 25rem;
+    }
+
+    #pDiv{
+        background-color: white;
+        color: black;
+        font-size: 1rem;
+        width: 4rem;
+    }
+
+    #spanEach{
+        color: red;
+        font-size: 18px;
+    }
+    #pVideoDiv{
+        background-color: white;
+        font-weight: bold;
+        width: 5rem;
+    }
+
+
+   
+
+    #imagesDiv{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        background-color: rgb(187, 143, 143);
+        height: 85vh;
+    }
+    
+    #imgDiv1{
+        grid-column: 1/span 1;
+        height: 10rem;
+    }
+
+    #imgDiv2{
+        grid-column: 2/span 1;
+        height: 10rem;
+    }
+
+    #imgDiv3{
+        grid-column: 3/span 1;
+        height: 10rem;
+    }
+
+    .imgIMG{
+        width: 20rem;
+        height: 160px;
+    }
+
+    .imgDiv{
+        margin: 0rem;
+        padding: 0rem;
+        margin-left: 4rem;
+    }
+
+    
+    .imgClass{
+        margin-top: 1rem;
+    } 
+    
+    .imgClass h3{
+        color: purple;
+    }
+   
+  
+    #registerDiv{
+        padding:0rem;     
+        height: 100%;
+        margin: 1rem 0rem 2rem 22rem;
+    }
+        #errorRegisterDiv{
+            color: red;
+        }
+
+        #dummyDiv{
+            background-color: rgba(126, 66, 66, 0.637);
+            width: 40rem;
+            text-align: center;
+        }
+
+        h4{
+            padding-top: 1rem;
+        }
+
+        h4 a{
+            text-decoration: none;
+        }
+
+        input{
+            margin-bottom: .5rem;
+            width: 35rem;
+            height: 3rem;
+        }
+
+        select{
+            width: 10rem;
+            height: 3rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        #submitButton{
+            margin-top: 0.5rem;
+        }
+
+        
+        #loginDivMain{
+            height: 100vh;
+        }
+
+        
+
+
+@media(max-width: 1500px){
+    
+    .pnavDiv{
+        padding-right: 1rem;
+        margin-left: 1rem;
+    }
+    
+    
+
+
+    #baID img{
+        width: 12rem;
+        height: 6rem;
+    }
+ 
+}
+
+
+@media(max-width: 1250px){
+    #navDiv{
+        padding-left: 6rem;
+        padding-top: 0rem;
+    }
+    
+    #baID{
+        padding: 1rem 2rem;
+        margin-left: 5rem;
+    }
+
+    #baID img{
+        width: 20rem;
+        height: 10rem;
+    }
+
+    
+
+    #imagesDiv{
+        display:grid;
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+        
+    #imgDiv1{
+            grid-column: 1/span 1;
+            height: auto;
+        }
+    
+        #imgDiv2{
+            grid-column: 1/span 1;
+            height: auto;
+        }
+    
+        #imgDiv3{
+            grid-column: 1/span 1;
+            height: auto;
+        }
+    
+        .imgIMG{
+            width: 50rem;
+            height: auto;
+        }
+    
+        .imgDiv{
+            margin: 0rem;
+            padding: 0rem;
+            margin-left: 4rem;
+        }
+ 
+}
+
+
+@media(max-width: 1180px){
+
+    .pnavDiv{
+        margin-left: 0rem;
+    }
+
+    #navDiv{
+        padding-left: 14rem;
+    }
+   
+    #videoID{
+        margin-left: 15rem;
+    }
+
+    
+
+    
+    #registerDiv{
+        margin-left: 15rem;
+    }
+
+    
+    #loginForm{
+        margin-left: 15rem;
+    }
+ 
+}
+
+
+@media(max-width: 1000px){
+    #navDiv{
+        padding-left: 3rem;
+        padding-top: 0rem;
+    }
+
+    .pnavDiv{
+        font-size: 1.2rem;
+    }
+
+    .imgIMG{
+        width: 30rem;
+        height: auto;
+    }
+
+
+   
+    #registerDiv{
+        margin-left: 10rem;
+    }
+}
+
+
+@media(max-width: 800px){
+
+   
+    #registerDiv{
+        margin-left: 2rem;
+    }
+}
+
+@media(max-width: 630px){
+    #navDiv{
+        padding-left: 3rem;
+        padding-top: 0rem;
+    }
+
+    .pnavDiv{
+        font-size: 0.8rem;
+    }
+
+    .imgIMG{
+        width: 20rem;
+        height: auto;
+    }
+}
+
+
+@media(max-width: 530px){
+    .pnavDiv{
+        font-size: 0.5rem;
+    }
+
+    .imgIMG{
+        width: 20rem;
+        height: auto;
+    }
+}
